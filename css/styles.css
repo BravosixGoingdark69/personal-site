@@ -11,7 +11,9 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   color: #66BFBF;
+
 }
+
 
 h2 {
   font-family: 'Dosis', sans-serif;
@@ -27,7 +29,9 @@ h3 {
 
 p {
   line-height: 2;
+
 }
+
 
 hr {
   border: dotted #EAF6F6 6px;
@@ -41,11 +45,20 @@ a {
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
+
 }
 
 a:hover {
   color: #EAF6F6;
 }
+
+img {
+
+
+}
+
+
+
 
 .top-container {
   background-color: #E4F9F5;
@@ -82,6 +95,12 @@ a:hover {
 .bravo-profile {
   height: 200px;
   width: 200px;
+  transition: width 1s, height 1s;
+}
+
+.bravo-profile:hover {
+  width: 250px;
+  height: 250px;
 }
 
 .heading-two {
@@ -98,12 +117,19 @@ a:hover {
   width: 25%;
   float: left;
   margin-right: 30px;
+  transition: width 1s, height 1s;
 }
-
+.python-img:hover {
+  width: 30%
+}
 .webdesign-img {
   width: 15%;
   float: right;
-  margin-left: 30px
+  margin-left: 30px;
+  transition: width 1s, height 1s;
+}
+.webdesign-img:hover {
+  width: 20%
 }
 
 .btn {
@@ -133,8 +159,6 @@ a:hover {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-
-
 
 .heading3 {
   font-size: 1.2rem;
